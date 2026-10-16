@@ -1,0 +1,10 @@
+(function transformEntry(source, target, map, log, isUpdate) {
+
+    // Import data from spreadsheet to target table
+
+    target.name = source.name;
+    target.email = source.email;
+    target.phone = source.phone;
+    target.department = source.department;
+
+})(source, target, map, log, action === "update");
